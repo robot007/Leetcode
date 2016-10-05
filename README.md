@@ -1,5 +1,17 @@
 # Leetcode
 Play leetcode questions in different languages.
+* o : onworking
+* x : finished
+* ? : future work
+
+| # | Title | Python | C++ | Javascript | Java | Difficulty |
+|---| ----- | --------| -------- |--------  | ---------- |
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[o]() |  [o](./Easy/3sum/3Sum.cpp) | [?](./Easy/3sum/) | [?]() | Medium|
+
+## References
+[1] https://github.com/haoel/leetcode
+[2] https://github.com/hanzichi/leetcode
+[3] https://github.com/kamyu104/
 
 ## Compiler setup
 
