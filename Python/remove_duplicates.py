@@ -15,4 +15,4 @@ for right in range(1,len(A)):
         left+=1
         A[left]=A[right]
 A_clean=A[0:left+1] # note: A[start:length] or A[start:end].
-print A_clean
+print(A_clean)
