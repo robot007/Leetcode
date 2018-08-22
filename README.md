@@ -4,6 +4,8 @@ Play leetcode questions in different languages.
 * x : finished
 * ? : future work
 
+
+
 | # | Title | Python | C++ | Javascript | Java | Difficulty |
 |---| ----- | --------| -------- |--------  | ---------- |
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[o]() |  [o](./Easy/3sum/3Sum.cpp) | [?](./Easy/3sum/) | [?]() | Medium|
