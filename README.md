@@ -4,11 +4,9 @@ Play leetcode questions in different languages.
 * x : finished
 * ? : future work
 
-
-
-| # | Title | Python | C++ | Javascript | Java | Difficulty |
-|---| ----- | --------| -------- |--------  | ---------- |
-|15|[3Sum](https://leetcode.com/problems/3sum/)|[o]() |  [o](./Easy/3sum/3Sum.cpp) | [?](./Easy/3sum/) | [?]() | Medium|
+| # | Title | Python | C++ | Java | TypeScript | Level |
+|---|-------|--------|-----|------|------------|-------|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[o]() |  [o](./Easy/3sum/3Sum.cpp) | [?](./Easy/3sum/) | [?]() | 2|
 
 ## References
 [1] https://github.com/haoel/leetcode
@@ -19,20 +17,17 @@ Play leetcode questions in different languages.
 
 ### C++ compiler
 * VS2015: open the solution for the unit test.
-* MinGW + Atom + gpp-compiler: press F5 for compilation.
+
 
 ### Python
-* Anaconda 2.3.0 64bit with Python 2.7
+* Anaconda 2.3.0 64bit with Python 3.x
 
 ### Java
 
 ### Javascript
 * Node JS
 
-### Julia
-* Julia 0.9
 
-## Leetcode Resources
 
 ## Appendix
 History
