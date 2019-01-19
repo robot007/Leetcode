@@ -8,6 +8,9 @@
 # You may imagine nums[-1] = nums[n] = 1. They are not real therefore you can not burst them.
 # 0 ≤ n ≤ 500, 0 ≤ nums[i] ≤ 100
 
+## Wrong Answer 1/18/19
+# [9,76,64,21,97,60,5], expected 1088290, output 1088286
+
 class Solution:
     def maxCoins(self, nums, idx=-1):
         """
