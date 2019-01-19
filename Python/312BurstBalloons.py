@@ -17,11 +17,15 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
+        # if len(nums) == 1 and idx==0:
+        #     return 0
+        if len(nums) == 1 and idx==-1:
+            return nums[0]
         if len(nums) == 1 and idx==0:
             return 0
-        if idx >= 0:
+        if len(nums)>1 and idx >= 0:
             nums=nums.copy()
-            nums.pop(idx)
+            nums.pop(idx)        
         val1 = [v[0]*v[1]*v[2] for v in zip([1]+nums[:-2], nums, nums[1:]+[1])]
         val2= [self.maxCoins(nums, ix2) for ix2 in range(len(nums))]
         val = [v[0]+v[1] for v in zip(val1, val2)]
@@ -36,3 +40,28 @@ if __name__ == '__main__':
     nums=[3,1,5,8]
     sol = Solution()
     print(sol.maxCoins(nums))        
+
+
+'''
+class Solution:
+    def maxCoins(self, nums, idx=-1):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if len(nums) == 1 and idx==0:
+            return 0
+        if idx >= 0:
+            nums=nums.copy()
+            nums.pop(idx)
+        val1 = [v[0]*v[1]*v[2] for v in zip([1]+nums[:-2], nums, nums[1:]+[1])]
+        val2= [self.maxCoins(nums, ix2) for ix2 in range(len(nums))]
+        val = [v[0]+v[1] for v in zip(val1, val2)]
+        print(f'val={val}')
+        coin = max(val)
+        ix = val.index(coin)
+        print(f'if remove {nums[ix]} from {nums}, get {val1[ix]} coins of total {coin} coins.')
+        return coin
+'''
+
+
