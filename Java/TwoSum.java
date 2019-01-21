@@ -21,6 +21,5 @@ public class Solution
         
         System.out.println(ret[0]);
         System.out.println(ret[1]);
-            
     }
 }
