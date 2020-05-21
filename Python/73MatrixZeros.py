@@ -70,6 +70,7 @@ class Solution:
 # Runtime: 188 ms, faster than 10.60% of Python3 online submissions for Set Matrix Zeroes.
 # Memory Usage: 14.2 MB, less than 5.13% of Python3 online submissions for Set Matrix Zeroes.                    
 
+#### very elegant!
     def setZeroes2(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
